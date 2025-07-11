@@ -20,16 +20,6 @@ This is a project I built using AWS Free Tier services to put my data analytics/
 - IAM (for permissions)
 - Amplify (for hosting the frontend)
 
-## Sample Output
-
-```json
-{
-  "invoice_id": "QUO0005115",
-  "date": "15/05/2025",
-  "total": "520.00",
-  "vendor": "N/A"
-}
-
 ## Limitations / Areas of Improvement
 
 **"Total Amount" Extraction issue:** 
@@ -45,3 +35,12 @@ This is a project I built using AWS Free Tier services to put my data analytics/
 **Template Dependence:**  
   - This scanner works best when invoices follow a fairly consistent format/template (e.g. internal company use).
   - For scanning invoices from many vendors, additional AI or ML tools would be needed.
+## Sample Output
+
+```json
+{
+  "invoice_id": "QUO0005115",
+  "date": "15/05/2025",
+  "total": "520.00",
+  "vendor": "N/A"
+}
